@@ -1,8 +1,4 @@
-import java.util.Random;
-
 public class Gambler extends Account{
-	
-	Random rd = new Random();
 	
 	public Gambler(double balance) {
 		super(balance);
