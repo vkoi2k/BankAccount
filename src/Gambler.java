@@ -8,7 +8,7 @@ public class Gambler extends Account{
 	@Override
 	public void withdraw(double amount) {
 		int a = (int) (Math.random()*100)+1;
-		if (a < 49) {
+		if (a <= 49) {
 			super.withdraw(0);
 		}
 		else {
